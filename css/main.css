@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-end {
+    justify-content: flex-end;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.font-b {
+    font-weight: bold;
+}
+
+.font-5 {
+    font-weight: 500;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(/font/Inter-Regular.ttf);
+}
+
+.t-cen {
+    text-align: center;
+}
+
+
+.logo img {
+    max-height: 100%;
+}
+
+.bg-light {
+    background-color: #232A2F !important;
+}
+
+.nav-link {
+    color: white;
+    font-size: 17px;
+    font-family: Inter;
+    letter-spacing: 0.2px;
+}
+
+.nav-link:focus {
+    color: red;
+}
+
+
+.nav-link:hover {
+    color: red;
+}
+
+.navbar {
+    padding: 5px 0px;
+}
+
+.navbar-collapse {
+    padding: 10px 0px;
+}
+
+.search-box {
+    width: 300px;
+}
+
+.cart-icon {
+    margin-right: 10px;
+}
+
+.cart-icon, .user-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #4C4C4C;
+    text-align: center;
+    line-height: 41px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-btn {
+    color: #6F6F6F;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    right: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+}
+
+.form-control {
+    padding-right: 40px;
+}
+
+.form-control:focus {
+    border-color: #232A2F;
+    box-shadow: none;
+}
+
+.body-content {
+    background-color: #171E22;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #232A2F;
+    padding: 30px 0px;
+}
+
+.questions, .account, .contact {
+    font-size: 15px;
+}
+
+.questions p, .account p, .contact p {
+    font-family: Inter;
+}
+
+.questions a, .sign a, .contact-method a {
+    text-decoration: none;
+    color: white;
+}
+
+.questions a:hover, .sign a:hover, .contact-method a:hover {
+    color: #dd163b;
+}
+
+.web-info {
+    width: 65%;
+    color: white;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.web-logo {
+    margin-right: 15px;
+}
+
+.big-logo img {
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.mini-logo {
+    width: 100%;
+}
+
+.mini-logo img {
+    width: 36px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact-method span {
+    color: #F3D054;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
