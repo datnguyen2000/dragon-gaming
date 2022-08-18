@@ -13,6 +13,10 @@ h2 i {
     margin-left: 10px;
 }
 
+.slide {
+    padding-top: 35px;
+}
+
 .title {
     padding-right: 25px;
 }
@@ -523,6 +527,9 @@ h4 {
     .navbar-toggler {
         border: 1px solid;
     }
+    .slide {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width: 542px) {
@@ -584,6 +591,9 @@ h4 {
     }
     .navbar-toggler {
         border: 1px solid;
+    }
+    .slide {
+        padding-top: 30px;
     }
 }
 
