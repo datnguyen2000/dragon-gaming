@@ -35,6 +35,7 @@ h2 i {
 
 .sale-game {
     padding-bottom: 20px;
+    margin: 0px 17px;
 }
 
 .item img {
@@ -43,8 +44,8 @@ h2 i {
 
 .container {
     padding: 0;
-    margin: 0px 135px;
     width: unset;
+    max-width: 1200px;
 }
 
 .item-info {
@@ -85,11 +86,11 @@ h2 i {
     color: #E4E4E4;
 }
 
-.slick-slide {
+.sale-item .slick-slide {
     margin: 0px 15px;
 }
 
-.slick-dots {
+.sale-item  .slick-dots {
     padding: 20px 15px 0px;
     bottom: 0;
     display: flex !important;
@@ -99,11 +100,11 @@ h2 i {
     list-style: none;
 }
 
-.slick-dots li {
+.sale-item  .slick-dots li {
     margin: 0px 15px;
 }
 
-.slick-dots li button {
+.sale-item  .slick-dots li button {
     font-size: 0px;
     width: 7px;
     height: 7px;
@@ -113,7 +114,7 @@ h2 i {
     background-color: #575757;
 }
 
-.slick-dots .slick-active button {
+.sale-item  .slick-dots .slick-active button {
     background-color: white;
 }
 
@@ -390,7 +391,47 @@ h4 {
     box-shadow: inset 0px 2px 4px -2px #000000;
 }
 
+.most-image img {
+    width: 100%;
+}
 
+.new-game-item .slick-prev, .new-game-item .slick-next {
+    position: absolute;
+}
+
+.new-game-item .slick-prev {
+    top: -64px;
+    right: 40px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #4e4e4e;
+    background-color: #171E22;
+    padding: 0px 10px;
+}
+
+.new-game-item .slick-next {
+    top: -64px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #4e4e4e;
+    background-color: #171E22;
+    padding-right: 10px;
+}
+
+.new-game-item .slick-slide {
+    margin: 0px 16px;
+}
+
+.top-sellers, .news, .footer-info {
+    margin: 0px 17px;
+}
+
+.new-image, .top-img {
+    box-shadow: 0px 5px 6px rgb(0 0 0 / 16%);
+}
 
 @media (max-width: 1224px) {
     .container {
@@ -524,11 +565,11 @@ h4 {
         top: 10px;
         right: 20px;
     }
-    .navbar-toggler {
-        border: 1px solid;
-    }
     .slide {
         padding-top: 30px;
+    }
+    .navbar-brand {
+        margin-right: 0px;
     }
 }
 
@@ -589,11 +630,11 @@ h4 {
         top: 10px;
         right: 20px;
     }
-    .navbar-toggler {
-        border: 1px solid;
-    }
     .slide {
         padding-top: 30px;
+    }
+    .navbar-brand {
+        margin-right: 0px;
     }
 }
 
@@ -604,8 +645,15 @@ h4 {
     .game-name {
         font-size: 20px;
     }
-    .account {
-        display: none;
+    .web-info {
+        margin-left: 0px;
+        padding: 0px 17px;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {  
+        margin-bottom: 25px;
+        margin-right: 50px;
     }
 }
 

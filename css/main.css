@@ -144,6 +144,10 @@ img {
     background-color: #171E22;
 }
 
+.navbar-toggler-icon {
+    background-image: url(/img/hamburger-icon.png);
+}
+
 
 
 
@@ -175,7 +179,7 @@ img {
     width: 65%;
     color: white;
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .web-logo {
