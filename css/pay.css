@@ -1,0 +1,323 @@
+.container {
+    max-width: 1200px;
+    width: unset;
+    padding: 0;
+}
+
+.pay-body {
+    background-color: #171E22;
+    padding-top: 70px;
+}
+
+.pay-cart {
+    margin: 0px 32px;
+    padding-bottom: 100px;
+}
+
+.your-cart {
+    width: 65%;
+    padding-top: 60px;
+}
+
+.pay-title h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.ctn-btn {
+    padding: 5px 15px;
+    background: #dd163b;
+    color: white;
+    border-radius: 6px;
+}
+
+.ctn-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.ctn-btn i {
+    margin-left: 5px;
+}
+
+.sub-price {
+    color: white;
+    margin-top: 50px;
+    border-bottom: 2px solid #353535;
+}
+
+.sub-info {
+    font-size: 15px;
+}
+
+.sub-total {
+    font-size: 18px;
+}
+
+.sub-total span {
+    font-size: 22px;
+    color: #F3D054;
+    font-weight: bold;
+}
+
+.cart-item {
+    margin-top: 25px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.cart-info {
+    width: 67%;
+    background-color: #293139;
+    color: white;
+    padding: 15px 20px;
+}
+
+.cart-img {
+    width: 259px;
+}
+
+.cart-game-name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.game-del a{
+    color: #848484;
+}
+
+.game-price span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.game-price img {
+    position: absolute;
+    bottom: 16px;
+    right: 80px;
+}
+
+.pay-info {
+    width: 350px;
+    background-color: #293139;
+    padding: 20px;
+    margin-top: 143px;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+
+.pay-info p {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.pay-method, .card-num, .date-info, .card-name, .gmail {
+    margin-bottom: 20px;
+}
+
+.pay-method select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #293139;
+    border: 2px solid #505050;
+    color: white;
+}
+
+.card-num input, .end-date input, .cvc input, .card-name input, .gmail input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #293139;
+    border: 2px solid #505050;
+    color: white;
+    padding-left: 12px;
+}
+
+.end-date, .cvc {
+    width: 48%;
+}
+
+.pay-des p {
+    margin: 25px 0px;
+    font-size: 15px;
+    color: #797979;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.note label {
+    font-size: 14px;
+    color: white;
+    margin-left: 5px;
+}
+
+.final-total {
+    border-bottom: 1px solid #555555;
+}
+
+.final-total p {
+    font-size: 20px;
+}
+
+.final-total span {
+    font-size: 22px;
+    color: #F3D054;
+    font-weight: 600;
+}
+
+.pay-btn {
+    margin-top: 50px;
+    letter-spacing: 0.5px;
+    margin-bottom: 70px;
+    float: right;
+}
+
+.pay-btn a {
+    font-size: 15px;
+    padding: 10px 15px;
+    background: #dd163b;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.footer-info {
+    margin: 0px 32px;
+}
+
+.web-info {
+    margin-left: 0;
+}
+
+.web-logo {
+    margin-right: 32px;
+}
+
+@media (max-width: 991px) {
+    .pay-info {
+        width: 35%;
+    }
+}
+
+@media (max-width: 849px) {
+    .pay-cart {
+        flex-direction: column;
+    }
+    .your-cart {
+        width: 100%;
+    }
+    .pay-info {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 790px) {
+    .help {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .web-logo {
+        width: 25%;
+    }
+    .web-info {
+        width: 70%;
+    }
+}
+
+@media (min-width: 543px) and (max-width: 767px) {
+    .web-logo {
+        display: none !important;
+    }
+    .web-info {
+        width: 100%;
+    }
+    .navbar>.container-fluid {
+        display: block;
+    }
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 567px ) {
+    .web-info {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 542px) {
+    .web-logo {
+        display: none !important;
+    }
+    .web-info {
+        width: 100%;
+    }
+    .questions, .account, .contact {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .cart-img {
+        height: 170px;
+        width: unset;
+    }
+    .cart-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cart-item {
+        display: block !important;
+    }
+    .cart-info {
+        width: 100%;
+    }
+    .cart-game-name {
+        margin-bottom: 10px;
+    }
+    .sub-info {
+        font-size: 14px;
+    }
+    .sub-total, .final-total p {
+        font-size: 18px;
+    }
+    .sub-total span, .final-total span {
+        font-size: 20px;
+    }
+    .navbar>.container-fluid {
+        display: block;
+    }
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .web-info {
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 50px;
+    }
+}

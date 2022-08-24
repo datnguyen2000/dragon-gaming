@@ -59,3 +59,7 @@ $('.navbar-toggler').click(function(){
   }
   
 });
+
+function pay() {
+  window.location.href = "../pay.html/";
+}

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Dragon Gaming - Payment</title>
+    <title>Dragon Gaming - News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
@@ -17,11 +17,10 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/pay.css">
+    <link rel="stylesheet" href="css/news-detail.css">
 
     <link rel="icon" href="img/logo-game-dep-va-1-200pxpng.png" type="image/x-icon" />
 
@@ -49,7 +48,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="category.html" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Category
                             </a>
@@ -93,113 +92,34 @@
         </nav>
     </div>
 
-    <div class="pay-body">
+    <div class="news-details-body">
         <div class="container">
-            <div class="pay-cart d-flex j-between">
-                <div class="your-cart">
-                    <div class="cart d-flex j-between a-center">
-                        <div class="pay-title">
-                            <h2>Your Cart</h2>
-                        </div>
-                        <div class="ctn-btn">
-                            <a href="">
-                                <span>Buy more</span>
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="sub-price d-flex j-between a-center">
-                        <div class="sub-info">
-                            Price includes VAT
-                        </div>
-                        <div class="sub-total">
-                            Total: <span>$16.98</span>
-                        </div>
-                    </div>
-
-                    <div class="cart-item d-flex">
-                        <div class="cart-img">
-                            <img src="img/cart-1.png" alt="">
-                        </div>
-                        <div class="cart-info d-flex j-between f-column position-relative">
-                            <div class="cart-game-name">
-                                <span>Grand Theft Auto V</span>
-                            </div>
-                            <div class="cart-des d-flex j-between a-center">
-                                <div class="game-del">
-                                    <a href="#">Delete</a>
-                                </div>
-                                <div class="game-price">
-                                    <img src="img/cart-logo-2.png" alt="">
-                                    <span>$6.99</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cart-item d-flex">
-                        <div class="cart-img">
-                            <img src="img/cart-2.jpg" alt="">
-                        </div>
-                        <div class="cart-info d-flex j-between f-column position-relative">
-                            <div class="cart-game-name">
-                                <span>Grand Theft Auto V</span>
-                            </div>
-                            <div class="cart-des d-flex j-between a-center">
-                                <div class="game-del">
-                                    <a href="#">Delete</a>
-                                </div>
-                                <div class="game-price">
-                                    <img src="img/cart-logo.png" alt="">
-                                    <span>$6.99</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="post">
+                <div class="post-thumbnail">
+                    <img src="img/news-content-3.jpg" alt="">
                 </div>
-                <div class="pay-info">
-                    <div class="pay-method">
-                        <p>Payment method</p>
-                        <select name="" id="">
-                            <option value="">Visa</option>
-                            <option value="">Paypal</option>
-                        </select>
-                    </div>
-                    <div class="card-num">
-                        <p>Card number</p>
-                        <input type="number" name="" id="" placeholder="1234 5678 1456 9821">
-                    </div>
-                    <div class="date-info d-flex j-between">
-                        <div class="end-date">
-                            <p>Expiration</p>
-                            <input type="number" name="" id="" maxlength="4" placeholder="MM/YY">
+                <div class="post-info">
+                    <div class="post-title">
+                        <h1>Summum Arterna, the Roguelite prequel to the acclaimed Aeterna Noctis is now available!</h1>
+                        <div class="date-time">
+                            <span>8.19.2022</span>
                         </div>
-                        <div class="cvc">
-                            <p>CVC/VV</p>
-                            <input type="number" name="" id="" maxlength="4" placeholder="1234">
+                        <div class="author">
+                            <span>By Sergio Fernández Carchenilla, Community Manager and Scriptwriter at Aeternum Game Studios</span>
                         </div>
                     </div>
-                    <div class="card-name">
-                        <p>Owner name</p>
-                        <input type="text" name="" id="" placeholder="Ex: Nguyen Van B">
-                    </div>
-                    <div class="gmail">
-                        <p>Gmail</p>
-                        <input type="email" name="" id="" placeholder="Ex: nguyenvanb@gmail.com">
-                    </div>
-                    <div class="note d-flex a-center">
-                        <input type="checkbox" name="" id="">
-                        <label for="">Save information for the next payment</label>
-                    </div>
-                    <div class="pay-des">
-                        <p>A secure encrypted payment token will be generated once your bank approves the purchase. We do not store your card details directly in our database</p>
-                    </div>
-                    <div class="final-total d-flex j-between">
-                        <p>Total:</p>
-                        <span>$16.98</span>
-                    </div>
-                    <div class="pay-btn">
-                        <a href="">PLACE ORDER</a>
+                    <div class="post-content">
+                        <p><span class="hl-text">Summum Aeterna</span> is a prequel to the acclaimed Aeterna Noctis that introduces us to a King of Darkness in one of the most convulsive and bloody periods of his history. Aeternum Game Studios guarantee us that the rhythm of the combat triples the formula seen in their previous work, being frenetic action and variety of weapons the main components in the combat system of this new title. Summum Aeterna has implemented important improvements and assistances compared to their previous title that will make players feel agile and powerful in combat.</p>
+                        <img src="img/news-detail-1.JPG" alt="">
+                        <p>The game features a world generator system never seen before in the genre. Worlds are created from seeds (or world generators) that, when germinated, create a new challenge with different environmental characteristics, enemy behaviour, special rooms and completely random rewards depending on the genes contained in the seed. The so-called “Seed Mechanics” will allow players to enjoy a totally different gaming experience every time they venture into a new world. The studio promises great news for this feature in future updates, including exclusive systems in the genre.</p>
+                        <br>
+                        <p>In Summum Aeterna the customization possibilities are guaranteed. The improvements unlocked in the world menu and the skill tree of the character will be permanent, so players will have their progress saved despite dying a thousand times feeling more powerful in each new game.</p>
+                        <img src="img/news-detail-2.JPG" alt="">
+                        <p>The development of Summum Aeterna took a year and a half up to now and that there will be approximately another year and a half of development in Early Access mode. A great effort has been made by the studio carrying out the development of two games at the same time, the Metroidvania Aeterna Noctis and this Roguelite, games that have surprised us all. They tell us from the studio “One of the reasons that led us to create this title was to keep our team together and not be forced to lay off part of the staff due to lack of work. We are especially proud that Summum Aeterna has allowed us to keep the whole team that made Aeterna Noctis possible. We hope that it will be a formula that we can keep repeating in the future. We have a great team and they deserve it."</p>
+                        <img src="img/news-detail-3.JPG" alt="">
+                        <p>The title has been released in Early Access format, promising new and constant updates that will expand the game every so often. Summum Aeterna can be played right now for a reduced price.The launch price is reduced as a token of gratitude for the feedback it will receive from users. If you want to enjoy this title and support the studio in its development, there is no better way than to buy it right now.</p>
+                        <img src="img/news-detail-4.JPG" alt="">
+                        <p>The dev team makes their official channels available to players and will manage Summum Aeterna's suggestions and comments through the <span class="hl-text">official Discord account</span> where they enabled special sections for this purpose. Also, you can find the links to their communities <span class="hl-text">on their website</span>.</p>
                     </div>
                 </div>
             </div>

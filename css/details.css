@@ -1,0 +1,448 @@
+.details-thumbnail {
+    padding-top: 70px;
+}
+
+.details-thumbnail img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    width: unset;
+    padding: 0;
+}
+
+.game-name h3 {
+    font-family: Inter;
+    font-weight: bold;
+}
+
+.game-name span {
+    font-family: Inter;
+    font-size: 18px;
+    color: #939393;
+}
+
+.game-info, .game-name {
+    margin: 40px 32px;
+}
+
+.game-info {
+    margin-bottom: 120px;
+}
+
+.info-name h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info-genre p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-genre span {
+    color: #EFE847;
+}
+
+.info {
+    margin-left: 77px;
+}
+
+.info-logo {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.info-price {
+    margin-bottom: 16px;
+}
+
+.sale-percent {
+    padding: 3px 7px;
+    background: #dd163b;
+    font-size: 12px;
+    font-family: Inter;
+    color: white;
+    border-radius: 4px;
+}
+
+.latest-price {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.old-price {
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: #9d9d9d;
+    font-size: 16px;
+}
+.btn-add button {
+    padding: 10px 97px;
+    background-color: #dd163b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-add i {
+    margin-right: 10px;
+}
+
+.dev {
+    margin-top: 15px;
+}
+
+.dev, .publish, .release-date {
+    border-bottom: 2px solid #353535;
+    margin-bottom: 15px;
+    padding: 7px 0px;
+}
+
+.dev p, .publish p, .release-date p {
+    font-family: Inter;
+    margin: 0;
+    font-size: 15px;
+}
+
+.dev span, .publish span, .release-date span {
+    color: #EFE847;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+.intro, .character, .story, .spec {
+    margin-top: 40px;
+}
+
+.intro p, .character p, .story p{
+    color: #999999;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.3px;
+}
+
+.intro h4, .character h4, .story h4, .spec h4 {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.spec-box {
+    background-color: #293139;
+}
+
+.spec-box p {
+    margin-bottom: 5px;
+}
+
+.os, .process, .mem, .gra {
+    margin-top: 30px;
+}
+
+.minimum p {
+    font-size: 18px;
+    color: #B3B3B3;
+}
+
+.os p, .process p, .mem p, .gra p {
+    font-size: 16px;
+}
+
+.os span, .process span, .mem span, .gra span {
+    color: #F3D054;
+    font-size: 15px;
+}
+
+.spec-box {
+    padding: 50px;
+    padding-bottom: 90px;
+    margin-top: 30px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.min-spec, .max-spec {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.footer-info {
+    margin: 0px 32px;
+}
+
+.web-info {
+    margin-left: 0;
+}
+
+.web-logo {
+    margin-right: 32px;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body {
+    background: #171E22;
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.game-thumb {
+    width: 60%;
+}
+
+
+.mySwiper2 {
+    height: auto;
+    border-radius: 7px;
+}
+
+.mySwiper {
+    height: 74px;
+}
+
+.mini-thumb {
+    width: 105px !important;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    border: 1px solid white;
+}
+
+@media (max-width: 1019px) {
+    .info {
+        margin-left: 55px;
+    }
+    .min-spec, .max-spec {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 963px) {
+    .info {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .btn-add button {
+        padding: 10px 85px;
+    }
+}
+
+@media (max-width: 840px) {
+    .btn-add button {
+        padding: 10px 70px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .web-logo {
+        width: 25%;
+    }
+
+    .web-info {
+        width: 70%;
+    }
+}
+
+@media (max-width: 790px) {
+    .help {
+        display: none;
+    }
+}
+
+@media (min-width: 543px) and (max-width: 767px) {
+    .web-logo {
+        display: none !important;
+    }
+
+    .web-info {
+        width: 100%;
+    }
+
+    .navbar>.container-fluid {
+        display: block;
+    }
+
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .game-info {
+        flex-direction: column-reverse;
+    }
+    .game-thumb {
+        width: 100%;
+    }
+    .info {
+        margin: 0;
+    }
+    .btn-add button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px) {
+    .web-info {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 542px) {
+    .web-logo {
+        display: none !important;
+    }
+
+    .web-info {
+        width: 100%;
+    }
+
+    .questions,
+    .account,
+    .contact {
+        font-size: 14px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .navbar>.container-fluid {
+        display: block;
+    }
+
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+    .game-info {
+        flex-direction: column-reverse;
+    }
+    .game-thumb {
+        width: 100%;
+    }
+    .info {
+        margin: 0;
+    }
+    .btn-add button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .web-info {
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 50px;
+    }
+    .info-logo img {
+        width: 50%;
+    }
+    .spec-box {
+        padding: 33px;
+    }
+    .max-spec {
+        padding-left: 10px;
+    }
+}

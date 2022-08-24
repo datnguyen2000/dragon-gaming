@@ -1,0 +1,165 @@
+.footer-info {
+    margin: 0px 32px;
+}
+
+.web-info {
+    margin-left: 0;
+}
+
+.web-logo {
+    margin-right: 32px;
+}
+
+.container {
+    max-width: 1200px;
+    width: unset;
+    padding: 0;
+}
+
+.news-details-body {
+    background-color: #171E22;
+}
+
+.post {
+    padding-top: 110px;
+}
+
+.post-info {
+    margin-top: 40px;
+    padding-bottom: 90px;
+}
+.post-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.post-title {
+    margin-bottom: 40px;
+}
+
+.date-time span {
+    font-size: 14px;
+    color: rgb(222, 222, 222);
+}
+
+.author {
+    color: rgb(222, 222, 222);
+    margin-top: 40px;
+}
+
+.post-content p {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.post-content img {
+    margin: 25px 0px;
+}
+
+.hl-text {
+    color: #f3d054;
+}
+
+.post-thumbnail, .post-info {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.post-thumbnail img {
+    border-radius: 5px;
+}
+
+@media (min-width: 1440px) {
+    .post-info {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+}
+
+@media (max-width: 991px) {
+    .post-thumbnail {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .web-logo {
+        width: 25%;
+    }
+    .web-info {
+        width: 70%;
+    }
+}
+
+@media (max-width: 790px) {
+    .help {
+        display: none;
+    }
+}
+
+@media (min-width: 543px) and (max-width: 767px) {
+    .web-logo {
+        display: none !important;
+    }
+    .web-info {
+        width: 100%;
+    }
+    .navbar>.container-fluid {
+        display: block;
+    }
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 567px ) {
+    .web-info {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 542px) {
+    .web-logo {
+        display: none !important;
+    }
+    .web-info {
+        width: 100%;
+    }
+    .questions, .account, .contact {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .navbar>.container-fluid {
+        display: block;
+    }
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .web-info {
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 50px;
+    }
+}
