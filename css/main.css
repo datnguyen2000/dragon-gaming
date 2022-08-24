@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Inter;
+    src: url(/font/Inter-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -53,10 +58,6 @@ img {
     font-size: 24px;
 }
 
-@font-face {
-    font-family: Inter;
-    src: url(/font/Inter-Regular.ttf);
-}
 
 .t-cen {
     text-align: center;
@@ -85,11 +86,13 @@ img {
 
 .nav-link:focus {
     color: red;
+    font-weight: bold;
 }
 
 
 .nav-link:hover {
     color: red;
+    font-weight: bold;
 }
 
 .navbar {
@@ -149,9 +152,19 @@ img {
 }
 
 
+.dropdown-menu {
+    background-color: #232A2F;
+}
 
+.dropdown-menu li a {
+    color: white;
+}
 
-
+.dropdown-item:hover {
+    color: #dd163b;
+    background-color: #293139;
+    font-weight: bold;
+}
 
 .footer {
     background-color: #232A2F;
@@ -173,6 +186,7 @@ img {
 
 .questions a:hover, .sign a:hover, .contact-method a:hover {
     color: #dd163b;
+    font-weight: bold;
 }
 
 .web-info {

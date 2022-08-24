@@ -31,10 +31,18 @@ h2 {
     border: none;
     width: 100%;
     border-radius: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(/img/Arrow-down.png);
+    background-position: center right 1rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    padding-right: 3rem;
 }
 
 .opt-title {
-    left: 15px;
+    left: 10px;
     top: 10px;
     font-size: 13px;
     color: #9c9c9c;
@@ -51,6 +59,7 @@ h2 {
     border: none;
     border-radius: 8px;
     width: 100%;
+    
 }
 
 .price label {
