@@ -61,5 +61,5 @@ $('.navbar-toggler').click(function(){
 });
 
 function pay() {
-  window.location.href = "../pay.html/";
+  window.location.href = "https://datnguyen2000.github.io/dragon-gaming/pay.html";
 }
