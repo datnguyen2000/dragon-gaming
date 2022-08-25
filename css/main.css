@@ -236,7 +236,7 @@ h5 {
     height: 18px;
     text-align: center;
     font-size: 0.7rem;
-    border-radius: 3px;
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
