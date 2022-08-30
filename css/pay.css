@@ -83,7 +83,7 @@
     font-weight: 600;
 }
 
-.game-del a{
+.game-del a {
     color: #848484;
 }
 
@@ -113,7 +113,11 @@
     margin-bottom: 5px;
 }
 
-.pay-method, .card-num, .date-info, .card-name, .gmail {
+.pay-method,
+.card-num,
+.date-info,
+.card-name,
+.gmail {
     margin-bottom: 20px;
 }
 
@@ -126,7 +130,11 @@
     color: white;
 }
 
-.card-num input, .end-date input, .cvc input, .card-name input, .gmail input {
+.card-num input,
+.end-date input,
+.cvc input,
+.card-name input,
+.gmail input {
     width: 100%;
     padding: 5px;
     border-radius: 5px;
@@ -136,7 +144,8 @@
     padding-left: 12px;
 }
 
-.end-date, .cvc {
+.end-date,
+.cvc {
     width: 48%;
 }
 
@@ -152,6 +161,7 @@
     font-size: 14px;
     color: white;
     margin-left: 5px;
+    margin-bottom: 0;
 }
 
 .final-total {
@@ -197,10 +207,131 @@
     margin-right: 32px;
 }
 
+.navbar-light .navbar-nav .nav-link { 
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dd163b;
+}
+
+.modal-confirm {
+    color: #636363;
+    width: 400px;
+    font-size: 14px;
+}
+
+.modal-confirm .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #293139;
+}
+
+.modal-confirm .modal-header {
+    border-bottom: none;
+    position: relative;
+}
+
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+    color: white;
+    font-weight: bold;
+}
+
+.modal-confirm .form-control,
+.modal-confirm .btn {
+    min-height: 40px;
+    border-radius: 3px;
+}
+
+.modal-confirm .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.modal-confirm .modal-footer {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background-image: url(../img/logo-game-dep-va-1-200pxpng.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    text-align: center;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.modal-confirm .icon-box i {
+    font-size: 58px;
+    position: relative;
+    top: 3px;
+}
+
+.modal-confirm.modal-dialog {
+    margin-top: 15%;
+}
+
+.modal-confirm .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #dd163b;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+}
+
+.btn-success:not(:disabled):not(.disabled):active {
+    background-color: #dd163b;
+    border-color: #dd163b;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    box-shadow: 0 0 0 0.2rem #dd163b;
+}
+
+.btn:active:focus, 
+.btn-success:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 0 0 0.2rem #dd163b;   
+}
+
+.modal-confirm .btn:hover,
+.modal-confirm .btn:focus {
+    outline: none;
+    opacity: 0.8;
+    border-color: white !important;
+}
+
+.modal-body p {
+    color: white;
+    color: #797979;
+    font-size: 16px;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 @media (max-width: 991px) {
@@ -213,9 +344,11 @@ input::-webkit-inner-spin-button {
     .pay-cart {
         flex-direction: column;
     }
+
     .your-cart {
         width: 100%;
     }
+
     .pay-info {
         width: 100%;
         margin-left: 0px;
@@ -233,6 +366,7 @@ input::-webkit-inner-spin-button {
     .web-logo {
         width: 25%;
     }
+
     .web-info {
         width: 70%;
     }
@@ -242,12 +376,15 @@ input::-webkit-inner-spin-button {
     .web-logo {
         display: none !important;
     }
+
     .web-info {
         width: 100%;
     }
+
     .navbar>.container-fluid {
         display: block;
     }
+
     .header-icon {
         position: absolute;
         top: 10px;
@@ -255,11 +392,12 @@ input::-webkit-inner-spin-button {
     }
 }
 
-@media (max-width: 567px ) {
+@media (max-width: 567px) {
     .web-info {
         flex-wrap: wrap;
         justify-content: unset;
     }
+
     .about-us {
         margin-bottom: 25px;
         margin-right: 60px;
@@ -270,45 +408,62 @@ input::-webkit-inner-spin-button {
     .web-logo {
         display: none !important;
     }
+
     .web-info {
         width: 100%;
     }
-    .questions, .account, .contact {
+
+    .questions,
+    .account,
+    .contact {
         font-size: 14px;
     }
+
     h5 {
         font-size: 18px;
     }
+
     .cart-img {
         height: 170px;
         width: unset;
     }
+
     .cart-img img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
+
     .cart-item {
         display: block !important;
     }
+
     .cart-info {
         width: 100%;
     }
+
     .cart-game-name {
         margin-bottom: 10px;
     }
+
     .sub-info {
         font-size: 14px;
     }
-    .sub-total, .final-total p {
+
+    .sub-total,
+    .final-total p {
         font-size: 18px;
     }
-    .sub-total span, .final-total span {
+
+    .sub-total span,
+    .final-total span {
         font-size: 20px;
     }
+
     .navbar>.container-fluid {
         display: block;
     }
+
     .header-icon {
         position: absolute;
         top: 10px;
@@ -322,6 +477,7 @@ input::-webkit-inner-spin-button {
         flex-wrap: wrap;
         justify-content: unset;
     }
+
     .about-us {
         margin-bottom: 25px;
         margin-right: 50px;

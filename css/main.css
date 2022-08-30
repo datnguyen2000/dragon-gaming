@@ -79,9 +79,10 @@ img {
 
 .nav-link {
     color: white;
-    font-size: 17px;
+    font-size: 15px;
     font-family: Inter;
     letter-spacing: 0.2px;
+    font-weight: bold;
 }
 
 .nav-link:focus {
@@ -240,4 +241,8 @@ h5 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.active {
+    color: red !important;
 }

@@ -1,0 +1,155 @@
+.container {
+    max-width: 1200px;
+    width: unset;
+    padding: 0;
+}
+
+.faq-body {
+    background-color: #171E22;
+    padding: 120px 0px;
+}
+
+.faq-content, .faq-time, .faq-title {
+    margin: 0px 32px;
+}
+
+.faq-title h1 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39px;
+}
+
+.faq-time {
+    margin: 30px 32px;
+}
+
+.faq-time span {
+    font-size: 16px;
+    font-style: italic;
+    color: #f3d054;
+}
+
+.qa h2 {
+    color: #dd163b;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.qa span {
+    font-size: 16px;
+    color: #dedede;
+}
+
+.qa {
+    margin-top: 20px;
+}
+
+.qa p {
+    margin-bottom: 10px;
+}
+
+.web-info {
+    margin-left: 0;
+}
+
+.web-logo {
+    margin-right: 32px;
+}
+
+.footer-info {
+    margin: 0px 32px;
+}
+
+@media (min-width: 1440px) {
+    .post-info {
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+}
+
+@media (max-width: 991px) {
+    .post-thumbnail {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .web-logo {
+        width: 25%;
+    }
+    .web-info {
+        width: 70%;
+    }
+}
+
+@media (max-width: 790px) {
+    .help {
+        display: none;
+    }
+}
+
+@media (min-width: 543px) and (max-width: 767px) {
+    .web-logo {
+        display: none !important;
+    }
+    .web-info {
+        width: 100%;
+    }
+    .navbar>.container-fluid {
+        display: block;
+    }
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 567px ) {
+    .web-info {
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 542px) {
+    .web-logo {
+        display: none !important;
+    }
+    .web-info {
+        width: 100%;
+    }
+    .questions, .account, .contact {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    .navbar>.container-fluid {
+        display: block;
+    }
+    .header-icon {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .web-info {
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+    .about-us {
+        margin-bottom: 25px;
+        margin-right: 50px;
+    }
+}
