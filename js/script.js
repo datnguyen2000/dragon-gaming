@@ -73,7 +73,7 @@ $(function () {
     var href = $(this).find("a").attr("href");
 
     if (url === href) {
-      $(this).find("a").addClass("active");
+      $(this).find("a").addClass("active-menu");
     }
   });
 });

@@ -29,7 +29,23 @@ $(function () {
     // Make sure the form is submitted to the destination defined
     // in the "action" attribute of the form when valid
     submitHandler: function (form) {
-      form.submit();
+      $.ajax({
+        url: $(form).action,
+        method: $(form).method,
+        data: $(form).serialize(),
+        success: function() {
+           $("#myModal").modal("show");
+           $(".header").addClass("pad-right")
+        }
+    })
     },
   });
 });
+
+function hidemodal() {
+  $('.modal').modal('toggle');
+  setTimeout(function() {
+    $('.header').removeClass('pad-right');
+  }, 300);
+};
+

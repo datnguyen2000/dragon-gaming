@@ -84,7 +84,7 @@
                     </ul>
                     <div class="search-box d-flex position-relative">
                         <input class="form-control me-2" type="text" placeholder="Search store ..." aria-label="Search">
-                        <i class="fa-solid fa-magnifying-glass position-absolute search-btn"></i>
+                        <a href="category.html"><i class="fa-solid fa-magnifying-glass position-absolute search-btn"></i></a>
                         <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
                     </div>
 
@@ -214,7 +214,7 @@
                         <span>$16.98</span>
                     </div>
                     <div class="pay-btn">
-                        <button type="submit" name="btn-po">PLACE ORDER</button>
+                        <button type="submit" name="btn-po" onclick="validform()">PLACE ORDER</button>
                         <!-- <a href="#myModal" class="trigger-btn" data-toggle="modal" type="submit">
                             
                         </a> -->
@@ -236,7 +236,7 @@
                             <p class="text-center">Your booking has been confirmed. <br> An email receipt has been sent to you.</p>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+                            <button class="btn btn-success btn-block" data-dismiss="modal" onclick="hidemodal()">OK</button>
                         </div>
                     </div>
                 </div>

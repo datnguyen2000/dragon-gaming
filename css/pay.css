@@ -185,14 +185,15 @@
     float: right;
 }
 
-.pay-btn a {
+.pay-btn button {
     font-size: 15px;
-    padding: 10px 15px;
+    padding: 8px 15px;
     background: #dd163b;
     color: white;
     text-decoration: none;
     border-radius: 6px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border: none;
 }
 
 .footer-info {
@@ -326,6 +327,17 @@
     color: white;
     color: #797979;
     font-size: 16px;
+}
+
+.pad-right {
+    padding-right: 16px;
+    overflow: hidden;
+}
+
+form .error {
+    color: red;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 input::-webkit-outer-spin-button,
