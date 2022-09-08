@@ -407,7 +407,8 @@ h4 {
     font-size: 18px;
     color: #4e4e4e;
     background-color: #171E22;
-    padding: 0px 10px;
+    padding-right: 3px;
+    padding-left: 10px;
 }
 
 .new-game-item .slick-next {
@@ -418,7 +419,7 @@ h4 {
     font-size: 18px;
     color: #4e4e4e;
     background-color: #171E22;
-    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .new-game-item .slick-slide {
