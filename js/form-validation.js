@@ -33,19 +33,19 @@ $(function () {
         url: $(form).action,
         method: $(form).method,
         data: $(form).serialize(),
-        success: function() {
-           $("#myModal").modal("show");
-           $(".header").addClass("pad-right")
-        }
-    })
+        success: function () {
+          $("#myModal").modal("show");
+          $(".header").addClass("pad-right");
+        },
+      });
     },
   });
 });
 
-function hidemodal() {
-  $('.modal').modal('toggle');
-  setTimeout(function() {
-    $('.header').removeClass('pad-right');
-  }, 300);
-};
 
+function hidemodal() {
+  $(".modal").modal("toggle");
+  setTimeout(function () {
+    $(".header").removeClass("pad-right");
+  }, 300);
+}
