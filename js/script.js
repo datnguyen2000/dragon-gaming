@@ -71,7 +71,8 @@ $(function () {
   console.log(url);
   $(".navbar-nav li").each(function () {
     var href = $(this).find("a").attr("href");
-
+    var className = $(this).find("a").hasClass("nav-link");
+    
     if (url === href) {
       $(this).find("a").addClass("active-menu");
     }

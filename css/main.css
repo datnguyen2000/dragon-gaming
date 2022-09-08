@@ -158,7 +158,7 @@ img {
 }
 
 .dropdown-menu li a {
-    color: white;
+    color: white !important;
 }
 
 .dropdown-item:hover {
