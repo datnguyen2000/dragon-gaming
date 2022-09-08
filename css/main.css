@@ -246,3 +246,9 @@ h5 {
 .active-menu {
     color: red !important;
 }
+
+@media (max-width: 376px) {
+    .about-us {
+        margin-right: 40px !important;
+    }
+}

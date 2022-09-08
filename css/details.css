@@ -375,6 +375,9 @@ body {
     .btn-add button {
         width: 100%;
     }
+    .navbar-brand {
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 567px) {
@@ -428,6 +431,9 @@ body {
     }
     .btn-add button {
         width: 100%;
+    }
+    .navbar-brand {
+        margin-right: 0px;
     }
 }
 
