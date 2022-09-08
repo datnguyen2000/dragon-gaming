@@ -48,5 +48,5 @@ function hidemodal() {
   setTimeout(function () {
     $(".header").removeClass("pad-right");
   }, 300);
-  window.location.href = '../pay-success.html';
+  window.location.href = '../dragon-gaming/pay-success.html';
 }
