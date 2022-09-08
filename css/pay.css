@@ -299,6 +299,7 @@
     transition: all 0.4s;
     line-height: normal;
     border: none;
+    width: 100%;
 }
 
 .btn-success:not(:disabled):not(.disabled):active {
