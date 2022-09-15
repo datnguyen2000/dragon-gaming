@@ -246,6 +246,10 @@ h2 {
     width: 92%;
 }
 
+.category-title h2 span {
+    color: #f3d504;
+}
+
 @media (max-width: 1204px) {
     .filter-option {
         width: 100%;

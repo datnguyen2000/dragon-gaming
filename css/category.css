@@ -337,6 +337,12 @@ h2 {
     }
 }
 
+@media (max-width: 575px) {
+    .hide-item {
+        display: none;
+    }
+}
+
 @media (max-width: 567px ) {
     .web-info {
         flex-wrap: wrap;
