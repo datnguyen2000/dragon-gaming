@@ -260,14 +260,149 @@ h5 {
     color: red !important;
 }
 
+.mb-2 {
+    margin-bottom: 0px !important;
+}
+
+.right-menu {
+    position: fixed;
+    background-color: #293139;
+    top: 0;
+    bottom: 0;
+    right: -300px;
+    width: 300px;
+}
+
+.right-menu-header {
+    height: 120px;
+    padding: 10px;
+    position: relative;
+    background: url(https://vuighe.net/assets/img/navbar-user-header.jpg);
+}
+
+.bi-x-lg {
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+}
+
+.welcome {
+    font-weight: bold;
+    width: 140px;
+    overflow: hidden;
+    position: absolute;
+    top: 31%;
+    font-size: 20px;
+}
+
+.user-icon-login {
+    font-size: 75px;
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: -11px;
+    color: gray;
+}
+
+.user-icon-login img {
+    height: 90px;
+    width: 90px;
+}
+
+.login-tab {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    height: 30px;
+    font-weight: bold;
+}
+
+.form-login {
+    margin-top: 10px;
+}
+
+.login {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.register {
+    cursor: pointer;
+}
+
+.acc, .pass, .save, .btn-login, .btn-face, .re-pass, .username, .email, .gender, .birthday, .btn-register {
+    padding: 10px;
+    position: relative;
+}
+
+.acc label, .pass label, .save, .re-pass label, .username label, .email label, .day label, .month label, .year label {
+    display: block;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.acc input, .pass input, .re-pass input, .username input, .email input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 35px;
+}
+
+.acc i, .pass i, .btn-face i, .re-pass i, .username i, .email i {
+    left: 20px;
+    bottom: 15px;
+}
+
+.acc, .pass, .save, .btn-login, .btn-face, .re-pass, .username, .email, .gender, .birthday, .btn-register {
+    padding: 10px;
+    position: relative;
+}
+
+.btn-login {
+    margin-bottom: 20px;
+}
+
+
+.click-login, .click-register {
+    cursor: pointer;
+    background-color: #dd163b;
+    border-radius: 5px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    transition: .3s;
+    font-family: sans-serif;
+    border: 0px;
+    width: 100%;
+}
+
+.form-login i {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+}
+
+.form-register {
+    display: none;
+}
+
+.save a {
+    float: right;
+    color: #F3D054;
+}
+
 @media (max-width: 809px) {
-    .help {
-        display: none;
+    .search-box {
+        width: 260px;
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 380px) {
     .about-us {
-        margin-right: 40px !important;
+        margin-right: 35px !important;
     }
 }

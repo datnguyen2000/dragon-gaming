@@ -83,8 +83,71 @@
                             <span class="position-absolute item-in-cart">2</span>
                         </div>
                     </a>
-                    <div class="user-icon">
+                    <div class="user-icon" onclick="unhideRight()">
                         <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="right-menu">
+                        <div class="right-menu-header">
+                            <i class="bi bi-x-lg" onclick="hideRight()"></i>
+                            <div class="welcome">
+                                Welcome !
+                            </div>
+                            <div class="user-icon-login">
+                                <img src="img/logo-game-dep-va-1-200pxpng.png" alt="">
+                            </div>
+                            <div class="login-tab">
+                                <div class="login" onclick="login()">Sign in</div>
+                                <div class="register" onclick="register()">Sign up</div>
+                            </div>
+                        </div>
+                        <div class="user-login">
+                            <form action="" class="form-login">
+            
+                                <div class="acc">
+                                    <label for="">Username</label>
+                                    <input type="text" placeholder="Username" />
+                                    <i class="bi bi-person"></i>
+                                </div>
+            
+                                <div class="pass">
+                                    <label for="">Password</label>
+                                    <input type="text" placeholder="Password" />
+                                    <i class="bi bi-lock"></i>
+                                </div>
+            
+                                <div class="form-register">
+                                    <div class="re-pass">
+                                        <label for="">Confirm password</label>
+                                        <input type="text" placeholder="Confirm password" />
+                                        <i class="bi bi-person"></i>
+                                    </div>
+            
+                                    <div class="email">
+                                        <label for="">Phone</label>
+                                        <input type="text" placeholder="+84" />
+                                        <i class="bi bi-telephone"></i>
+                                    </div>
+            
+                                    <div class="btn-register">
+                                        <button type="button" class="click-register">Sign up</button>
+                                    </div>
+                                </div>
+            
+                                <div class="login-form">
+                                    <div class="save ">
+                                        <input type="checkbox" name="" id="" checked>
+                                        <label for="">Save</label>
+                                        <a href="">Forgot password ?</a>
+                                    </div>
+                                    
+                                    <div class="btn-login ">
+                                        <button type="button" class="click-login">Login</button>
+                                    </div>
+            
+                                </div>
+            
+                            </form>
+                        </div>
                     </div>
                 </div>
 
