@@ -149,3 +149,9 @@
         margin-right: 50px;
     }
 }
+
+@media (max-width: 542px) {
+    .navbar-brand {
+        margin-right: 0px;
+    }
+}
