@@ -406,3 +406,12 @@ h5 {
         margin-right: 35px !important;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .questions, .account, .contact {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+}
