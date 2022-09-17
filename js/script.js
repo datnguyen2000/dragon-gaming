@@ -125,6 +125,12 @@ function register() {
   login[0].style = "display:none;";
 }
 
+
+$(".form-control").on('keypress',function(e) {
+  if(e.which == 13) {
+      window.location.href = "search.html";
+  }
+});
 // function popUp() {
 //    var popup = document.getElementById('popupBox');
 
