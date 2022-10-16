@@ -72,35 +72,33 @@ $(function () {
   $(".navbar-nav li").each(function () {
     var href = $(this).find("a").attr("href");
     var className = $(this).find("a").hasClass("nav-link");
-    
+
     if (url === href) {
       $(this).find("a").addClass("active-menu");
     }
   });
 });
 
-
 function hideRight() {
-  var right = document.getElementsByClassName('right-menu');
+  var right = document.getElementsByClassName("right-menu");
 
   right[0].style = "right:-300px; transition: right .3s;";
 }
 
 function unhideRight() {
-  var right = document.getElementsByClassName('right-menu');
+  var right = document.getElementsByClassName("right-menu");
 
   right[0].style = "right:0; transition: right .3s;";
 }
 
-
 function login() {
-  var login = document.getElementsByClassName('login-form');
+  var login = document.getElementsByClassName("login-form");
 
-  var register = document.getElementsByClassName('form-register');
+  var register = document.getElementsByClassName("form-register");
 
-  var border = document.getElementsByClassName('register');
+  var border = document.getElementsByClassName("register");
 
-  var borderLogin = document.getElementsByClassName('login');
+  var borderLogin = document.getElementsByClassName("login");
 
   borderLogin[0].style = "border-bottom: 3.5px solid red;";
   border[0].style = "border:none;";
@@ -110,13 +108,13 @@ function login() {
 }
 
 function register() {
-  var login = document.getElementsByClassName('login-form');
+  var login = document.getElementsByClassName("login-form");
 
-  var register = document.getElementsByClassName('form-register');
+  var register = document.getElementsByClassName("form-register");
 
-  var border = document.getElementsByClassName('register');
+  var border = document.getElementsByClassName("register");
 
-  var borderLogin = document.getElementsByClassName('login');
+  var borderLogin = document.getElementsByClassName("login");
 
   borderLogin[0].style = "border:none;";
   border[0].style = "border-bottom: 3.5px solid red;";
@@ -125,12 +123,200 @@ function register() {
   login[0].style = "display:none;";
 }
 
-
-$(".form-control").on('keypress',function(e) {
-  if(e.which == 13) {
-      window.location.href = "search.html";
+$(".form-control").on("keypress", function (e) {
+  if (e.which == 13) {
+    window.location.href = "search.html";
   }
 });
+
+// Filter category
+var product = [
+  {
+    img: "img/New-game-1.png",
+    name: "Out of Line",
+    price: "4.99",
+    genre: "adventure",
+    show: "onSale",
+    oldPrice: "8.99",
+    salePercent: "-50%",
+  },
+  {
+    img: "img/New-game-2.png",
+    name: "Let's Buiuld A Zoo",
+    price: "4.99",
+    genre: "rolePlaying",
+    show: "topSellers",
+  },
+  {
+    img: "img/New-game-3.png",
+    name: "Among Us",
+    price: "4.99",
+    genre: "rolePlaying",
+    show: "onSale",
+    oldPrice: "8.99",
+    salePercent: "-50%",
+  },
+  {
+    img: "img/New-game-4.png",
+    name: "Skull - The Hero Slayer",
+    price: "4.99",
+    genre: "adventure",
+    show: "topSellers",
+  },
+  {
+    img: "img/New-game-5.png",
+    name: "Family Man",
+    price: "4.99",
+    genre: "action",
+    show: "newRelease",
+  },
+  {
+    img: "img/Cate-1.png",
+    name: "NecroSmith",
+    price: "2.99",
+    genre: "strategy",
+    show: "newRelease",
+  },
+  {
+    img: "img/Cate-2.png",
+    name: "Escape Acedemy",
+    price: "8.99",
+    genre: "adventure",
+    show: "onSale",
+    oldPrice: "10.99",
+    salePercent: "-20%",
+  },
+  {
+    img: "img/Cate-3.png",
+    name: "Hell Pie",
+    price: "3.99",
+    genre: "rolePlaying",
+    show: "onSale",
+    oldPrice: "4.99",
+    salePercent: "-10%",
+  },
+  {
+    img: "img/Cate-4.png",
+    name: "Shop Titans",
+    price: "1.99",
+    genre: "strategy",
+    show: "onSale",
+    oldPrice: "2.99",
+    salePercent: "-10%",
+  },
+  {
+    img: "img/Cate-5.png",
+    name: "Hazel Sky",
+    price: "7.99",
+    genre: "rolePlaying",
+    show: "onSale",
+    oldPrice: "10.99",
+    salePercent: "-10%",
+  },
+  {
+    img: "img/Cate-6.png",
+    name: "It Takes Two",
+    price: "4.99",
+    genre: "rolePlaying",
+    show: "onSale",
+    oldPrice: "8.99",
+    salePercent: "-30%",
+  },
+  {
+    img: "img/Cate-7.png",
+    name: "Dead Age",
+    price: "2.99",
+    genre: "action",
+    show: "newRelease",
+  },
+  {
+    img: "img/Cate-8.png",
+    name: "The Tale of Biston",
+    price: "8.99",
+    genre: "action",
+    show: "onSale",
+    oldPrice: "10.99",
+    salePercent: "-20%",
+  },
+  {
+    img: "img/Cate-9.png",
+    name: "Ageis Descent",
+    price: "3.99",
+    genre: "action",
+    show: "newRelease",
+  },
+  {
+    img: "img/Cate-10.png",
+    name: "Doodle Devil",
+    price: "1.99",
+    genre: "strategy",
+    show: "newRelease",
+  },
+];
+
+let filterDefault = document.getElementById("filter-game").innerHTML;
+
+$(".find-now").click(function () {
+  let genre = document.getElementById("Genre").value;
+  let show = document.getElementById("show").value;
+
+  let innerHTMLs = "";
+
+  let result = product.filter(
+    (game) => game.genre == genre && game.show == show
+  );
+
+  if (genre == "all" && show == "all") {
+    innerHTMLs = filterDefault;
+  }
+
+  for (let item of result) {
+    if (item.show != "onSale") {
+      innerHTMLs += `
+        <div class="item-box col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="details.html">
+              <div class="item">
+                  <div class="item-image position-relative">
+                      <img src="${item.img}" alt="">
+                      <div class="new-bg"></div>
+                  </div>
+                  <div class="item-info">
+                      <div class="item-name">${item.name}</div>
+                      <div class="item-price d-flex">
+                          <div class="latest-price">$${item.price}</div>
+                      </div>
+                  </div>
+              </div>
+          </a>
+        </div>`;
+    } else {
+      innerHTMLs += `
+        <div class="item-box col-lg-2 col-md-3 col-sm-4 col-6">
+          <a href="details.html">
+              <div class="item">
+                  <div class="item-image position-relative">
+                      <img src="${item.img}" alt="">
+                      <div class="new-bg"></div>
+                      <div class="sale-percent">${item.salePercent}</div>
+                  </div>
+                  <div class="item-info">
+                      <div class="item-name">${item.name}</div>
+                      <div class="item-price d-flex">
+                          <div class="latest-price">$${item.price}</div>
+                          <div class="old-price">$${item.oldPrice}</div>
+                      </div>
+                  </div>
+              </div>
+          </a>
+        </div>`;
+    }
+  }
+
+  document.getElementById("filter-game").innerHTML = innerHTMLs;
+
+  console.log(innerHTMLs);
+}); 
+
 // function popUp() {
 //    var popup = document.getElementById('popupBox');
 

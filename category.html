@@ -163,20 +163,21 @@
             <div class="category-filter d-flex a-center">
                 <div class="filter-option d-flex a-center j-between">
                     <div class="cate-option position-relative">
-                        <select class="opts" name="" id="">
-                            <option value="">All</option>
-                            <option value="">Strategy</option>
-                            <option value="">Action</option>
-                            <option value="">Role Playing</option>
-                            <option value="">Adventure</option>
+                        <select class="opts" name="" id="Genre">
+                            <option value="all">All</option>
+                            <option value="strategy">Strategy</option>
+                            <option value="action">Action</option>
+                            <option value="rolePlaying">Role Playing</option>
+                            <option value="adventure">Adventure</option>
                         </select>
                         <label class="opt-title position-absolute" for="">Genre</label>
                     </div>         
                     <div class="sort-option position-relative">
-                        <select class="opts" name="" id="">
-                            <option value="">On sale</option>
-                            <option value="">Top sellers</option>
-                            <option value="">New release</option>
+                        <select class="opts" name="" id="show">
+                            <option value="all">All</option>
+                            <option value="onSale">On sale</option>
+                            <option value="topSellers">Top sellers</option>
+                            <option value="newRelease">New release</option>
                             <option value="">From: A - Z</option>
                             <option value="">From: Z - A</option>
                         </select>
@@ -185,26 +186,26 @@
                     <div class="price-option d-flex a-center">
                         <div class="price-around">Price</div>
                         <div class="price position-relative">
-                            <input type="number" class="price-from" name="" id="" min="0" placeholder="Price from">
+                            <input type="number" class="price-from" name="" id="priceFrom" min="0" placeholder="Price from">
                             <!-- <label for="" class="position-absolute">Price from</label> -->
                         </div>
                         <div class="line">-</div>
                         <div class="price position-relative">
                             <!-- <label for="" class="position-absolute">Price to</label> -->
-                            <input type="number" class="price-to" name="" id="" min="0" placeholder="Price to">
+                            <input type="number" class="price-to" name="" id="priceTo" min="0" placeholder="Price to">
                         </div>
                     </div>
                     
                 </div>
                 <div class="btn-filter">
-                    <button>
+                    <button class="find-now">
                         <i class="bi bi-funnel"></i>
                         <span>Find</span>
                     </button>
                 </div>
             </div>
             <div class="category-item">
-                <div class="row">
+                <div class="row" id="filter-game">
                     <div class="item-box col-lg-2 col-md-3 col-sm-4 col-6">
                         <a href="details.html">
                             <div class="item">
